@@ -33,8 +33,3 @@ def get_user_age():
     input_from_user = int(input("enter your positive age: "))
     if input_from_user < 0:
         raise ValueError("Age can not be negative")
-
-try:
-    get_user_age()
-except ValueError as e:
-    print(e.args)
