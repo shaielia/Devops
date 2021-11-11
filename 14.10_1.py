@@ -12,4 +12,5 @@
 # actual = my_driver.find_element_by_id("tip").text
 # if expected == actual:
 #     print("all good")
+print(shai)
 
